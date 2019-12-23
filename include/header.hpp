@@ -11,8 +11,8 @@
 #include <chrono>
 #include <string>
 
-#define l1 393216
-#define  l3 4194304
+#define l1 262144
+#define  l3 6291456
 #define iterations 1000
 #define translate 1024*1024
 typedef std::chrono::high_resolution_clock Clock;

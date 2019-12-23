@@ -2,10 +2,12 @@
 #include "header.hpp"
 #include <ctime>
 
+
 Cache::Cache() {
     _array = NULL;
     _experiments = number_of_experiments();
 }
+
 
 std::map<int, int> Cache::number_of_experiments() {
     std::map<int, int> experiments;
